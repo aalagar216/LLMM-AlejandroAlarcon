@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<paises>
+
+    <españa>
+        <poblacion>48.797.875 habitantes</poblacion>
+        <capital>Madrid</capital>
+        <superficie>505.970 km²</superficie>
+    </españa>
+
+    <portugal>
+        <poblacion>10.639.726 habitantes</poblacion>
+        <capital>Lisboa</capital>
+        <superficie>92.230 km²</superficie>
+    </portugal>
+
+    <francia>
+        <poblacion>68.401.997 habitantes</poblacion>
+        <capital>Paris</capital>
+        <superficie>549.087 km²</superficie>
+    </francia>
+
+    <alemania>
+        <poblacion>83.445.000 habitantes</poblacion>
+        <capital>Berlin</capital>
+        <superficie>357.376 km²</superficie>
+    </alemania>
+
+</paises>
