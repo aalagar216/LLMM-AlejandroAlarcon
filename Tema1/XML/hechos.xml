@@ -5,7 +5,7 @@
         <fecha>
             <dia>12</dia>
             <mes>08</mes>
-            <año>1981</año>
+            <anio>1981</anioo>
         </fecha>
     </hecho>
 
@@ -13,7 +13,7 @@
         <fecha>
             <dia>04</dia>
             <mes>09</mes>
-            <año>1998</año>
+            <anio>1998</anio>
         </fecha>
     </hecho>
 
@@ -21,7 +21,7 @@
         <fecha>
             <dia>04</dia>
             <mes>02</mes>
-            <año>2004</año>
+            <anio>2004</anio>
         </fecha>
     </hecho>
 </hechosHistoricos>
