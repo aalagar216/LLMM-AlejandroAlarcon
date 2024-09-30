@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hechosHistoricos>
+    <hecho descripcion= "IBM da a conocer el Pc">
+        <fecha>
+            <dia>12</dia>
+            <mes>08</mes>
+            <anio>1981</anio>
+        </fecha>
+    </hecho>
+
+    <hecho descripcion= "Se funda Google">
+        <fecha>
+            <dia>04</dia>
+            <mes>09</mes>
+            <anio>1998</anio>
+        </fecha>
+    </hecho>
+
+    <hecho descripcion= "Se funda Facebook">
+        <fecha>
+            <dia>04</dia>
+            <mes>02</mes>
+            <anio>2004</anio>
+        </fecha>
+    </hecho>
+</hechosHistoricos>

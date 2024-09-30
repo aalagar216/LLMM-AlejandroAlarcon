@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<perro>
+    <raza>
+        <nombre>Perro de aguas español</nombre>
+        <abreviatura>PAE</abreviatura>
+        <origen>Andalucía</origen>
+        <tamanio>
+            <macho>44 a 50 cm</macho>
+            <hembra>40 a 46 cm</hembra>
+        </tamanio>
+        <peso>
+            <macho>19 a 22 kg</macho>
+            <hembra>14 a 19 kg</hembra>
+        </peso>
+        <peligrosidad>No es agresivo</peligrosidad>
+        <pelaje>pelaje rizado y lanoso</pelaje>
+        <enfermedadesComunes>displasia de cadera, atrofia progresiva de retina, luxación rotuliana o hipotiroidismo.</enfermedadesComunes>
+    </raza>
+
+    <raza>
+        <nombre>Bulldog Francés</nombre>
+        <abreviatura>Frenchie</abreviatura>
+        <origen>Francia</origen>
+        <tamanio>
+            <macho>30 a 35 cm</macho>
+            <hembra>28 a 33 cm</hembra>
+        </tamanio>
+        <peso>
+            <macho>9 a 14 kg</macho>
+            <hembra>8 a 13 kg</hembra>
+        </peso>
+        <peligrosidad>Baja</peligrosidad>
+        <pelaje>Corto, liso y de color blanco, atigrado o negro</pelaje>
+        <enfermedadesComunes>Braquicefalia, problemas respiratorios, alergias, problemas de piel</enfermedadesComunes>
+    </raza>
+
+    <raza>
+        <nombre>Golden Retriever</nombre>
+        <abreviatura>Golden</abreviatura>
+        <origen>Reino Unido</origen>
+        <tamanio>
+            <macho>56 a 61 cm</macho>
+            <hembra>51 a 56 cm</hembra>
+        </tamanio>
+        <peso>
+            <macho>29 a 34 kg</macho>
+            <hembra>25 a 32 kg</hembra>
+        </peso>
+        <peligrosidad>Baja</peligrosidad>
+        <pelaje>Largo, denso y de color dorado</pelaje>
+        <enfermedadesComunes>Displasia de cadera, displasia de codo, cataratas, cáncer</enfermedadesComunes>
+    </raza>
+</perro>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clientes>
+    <persona>
+        <nombre>Manolo Jimenez perez</nombre>
+        <fehaNacimiento>
+            <dia>04</dia>
+            <mes>07</mes>
+            <anio>1985</anio>
+        </fehaNacimiento>
+        <ciudad>Madrid</ciudad>
+    </persona>
+
+    <persona>
+        <nombre>Jose Antonio García Ruíz</nombre>
+        <fehaNacimiento>
+            <dia>15</dia>
+            <mes>11</mes>
+            <anio>2003</anio>
+        </fehaNacimiento>
+        <ciudad>Málaga</ciudad>
+    </persona>
+</clientes>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agenda>
+    <persona sexo="Hombre">
+        <nombre>Juan Antonio</nombre>
+        <apellidos>Paz Alcántara</apellidos>
+        <ciudad>Málaga</ciudad>
+        <telefonos>
+            <casa>952 123 456</casa>
+            <movil>634 567 890</movil>
+            <trabajo>951 123 456 </trabajo>
+        </telefonos>
+    </persona>
+</agenda>

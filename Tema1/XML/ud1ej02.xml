@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<biblioteca>
+    <libro>
+        <titulo>Estaba preparado para todo menos para ti</titulo>
+        <autor>Albert Espinosa</autor>
+        <añoPublicacion>07/10/2021</añoPublicacion>
+        <genero>
+            <opcion>Libro de autoyuda</opcion>
+            <opcion>Ciencia ficción</opcion>
+            <opcion>Acción</opcion>
+        </genero>
+        <idioma>Castellano</idioma>
+        <sinopsis>Siempre he creído que las palabras son necesarias para sanarte. En este libro he intentado depositar toda mi experiencia y lo que he aprendido de mucha gente que ha decidido contarme su sabiduría: los secretos y la energía que se desprende de los amarillos con los que he coincidido en mi vida.
+
+            Quisiera que este libro fuera un botiquín de soplos energéticos para muchos males y, sobre todo, para el alma. Lo he escrito con la esperanza de que alguno de estos soplos os active la ilusión, os aleje de ese problema que ahora tenéis y os devuelva a la senda de la alegría si os encontráis en ese duro instante vital. También tengo claro que quiero que este libro esté ilustrado, tenga bellos dibujos que os lleven de un soplo a otro.
+            
+            Soplad y disfrutad.</sinopsis>
+    </libro>
+
+    <libro>
+        <titulo>Chirimiri, el nido de los sueños (2ª Edición)</titulo>
+        <autor>Ramiro Pinto Cañón</autor>
+        <añoPublicacion>Enero de 2024</añoPublicacion>
+        <genero>
+            <opcion>Narrativa</opcion>
+            <opcion>Acción</opcion>
+            <opcion>Novela romántica</opcion>
+        </genero>
+        <idioma>Castellano</idioma>
+        <sinopsis>Estamos ante una novela que te atrapará desde la primera página.</sinopsis>
+    </libro>
+
+    <libro>
+        <titulo>Las Crónicas de Narnia</titulo>
+        <autor>C. S. Lewis</autor>
+        <añoPublicacion> 1950</añoPublicacion>
+        <genero>
+            <opcion>Fantasía</opcion>
+            <opcion>Acción</opcion>
+            <opcion></opcion>
+        </genero>
+        <idioma>Castellano</idioma>
+        <sinopsis>Es una heptalogía de libros juveniles que narra las aventuras de cuatro hermanos que son evacuados de Londres durante la Segunda Guerra Mundial y que descubren un mundo mágico llamado Narnia.</sinopsis>
+    </libro>
+</biblioteca>
