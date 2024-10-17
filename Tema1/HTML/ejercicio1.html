@@ -35,40 +35,38 @@
       <h2>Validador HTML</h2>
         <p>Visita <a href="https://www.freeformatter.com/html-validator.html">este enlace</a> para acceder al validador de HTML</p>
 
-        <img  width="450px" height="250px" src="https://static1.srcdn.com/wordpress/wp-content/uploads/2019/11/My-Little-Pony-Featured-Social-Media-Image.jpg" alt="Imagen de ejemplo"/>
+        <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Imagen de ejemplo"/>
 
-        <br>
-        <br>
+        <br/>
+        <br/>
     <!--tr para cada columna y dentro de tr se pone th para ponerlo en negritas y tr para escribir normal para continuar la fina -->
     <!--border para añadir lineas a la tabla-->
       <table>
         <tr>
-          <th>Nombre</th>
-          <th>Apellidos</th>
+          <th>Día</th>
+          <th>Asignatura</th>
         </tr>
         <tr>
-          <td>Francisco</td>
-          <td>Jimenez</td>
+          <td>Lunes</td>
+          <td>Matemáticas</td>
         </tr>
         <tr>
-          <td>Carlos</td>
-          <td>Hernandez</td>
+          <td>Martes</td>
+          <td>Ciencias</td>
         </tr>
       </table>
 
       <h2>FORMULARIO</h2>
       <form action="/enviar" method="POST">
         <label for="nombre">Nombre</label>
-        <input type="text" id="nombre" name="nombre"><br><br>
+        <input type="text" id="nombre" name="nombre"><br/><br/>
+
+        <label for="apellidos">Apellidos</label>
+        <input type="text" id="apellidos" name="apellidos"><br/><br/>
 
         <label for="email">Correo Electrónico</label>
-        <input type="email" id="email" name="email"><br><br>
+        <input type="email" id="email" name="email"><br/><br/>
 
-        <label for="contraseña">Contraseña</label>
-        <input type="password" id="contraseña" name="contraseña"><br><br>
-
-        <label for="alergia">Alergia</label>
-        <input type="checkbox" id="alergia" name="alergia"><br><br>
         <input type="submit" value="Enviar">
 
       </form>

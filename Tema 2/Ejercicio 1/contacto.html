@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="descripción" content="esto es una página de prueba"/>
+  <meta name="autor" content="Manolito Pies de Plata"/>
+  <meta name="keywords" content="etiquetas, pagina"/>
+  <title>Contacto</title>
+</head>
+<body>
+
+    <h1>Las mejores películas de (Agosto)</h1>
+
+    <ol>
+        <li><a href="index.html">Página principal</a></li>
+        <li><a href="carteles.html">Carteles de películas</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="https://www.filmaffinity.com/es/main.html">Página Filmafinitty</a></li>
+
+    </ol>
+
+    <hr/>
+
+    <h2>Contacto</h2>
+
+    <form action="/enviar" method="POST">
+        <div>
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre"/> <br/><br/>
+        </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email"/> <br/><br/>
+      </div>
+
+      <div>
+        <label for="mensaje">Mensaje</label>
+        <textarea name="mensaje" id="mensaje"></textarea> <br/><br/>
+      </div>
+
+      <div>
+        <label for="opciones">Opciones</label>
+        <select name="opciones" id="opciones">
+          <option value="opciones" id="opciones" name="opciones">Mujer</option>
+          <option value="opciones" id="opciones" name="opciones">Hombre</option>
+          <option value="opciones" id="opciones" name="opciones">Otro</option>
+        </select>
+      </div>
+        <br/> <br/>
+
+      <div>
+        <input type="submit" name="enviar" id="enviar"/>
+      </div>
+    </form>
+    
+</body>
+</html>
