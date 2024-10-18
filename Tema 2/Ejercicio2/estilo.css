@@ -1,3 +1,15 @@
 body{
     background: white url(img/fondo.gif);
 }
+
+h2 :hover{
+
+    display: inline-block;
+    border: 3px dotted red; /* Borde discontínuo */
+    padding: 10px;
+    border-radius: 10px;
+
+    color: blue; /* Color del texto */
+
+    transition: none 0.5s ease;
+}
