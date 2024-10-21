@@ -1,0 +1,50 @@
+body{
+font-family: Verdana, Tahoma, sans-serif;
+font-size: 12px;
+color: black;
+margin: 20px;
+background-color: #dff5fd;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    color: darkblue;
+    text-align: center;
+    background-color: white;
+    border-top: 3px solid blue;
+    border-bottom: 3px solid blue;
+    margin: 20px, auto;
+}
+
+h2{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.TimesRojo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: red;
+}
+
+.TimesVerde{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: green;
+}
+
+.datos {
+    border: 3px solid red;
+    border-radius: 20px;
+
+    color: #74030A;;
+    font-size: 14px;
+
+    margin-top: 20px, auto, auto;
+    margin-bottom: 20px, auto, auto;
+
+}
+

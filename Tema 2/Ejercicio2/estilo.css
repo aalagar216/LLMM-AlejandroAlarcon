@@ -1,15 +1,17 @@
 body{
     background: white url(img/fondo.gif);
+    font-family: Verdana;
+    font-size: 12px;
+    color: blue;
 }
 
-h2 :hover{
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+    color: darkred;
+}
 
-    display: inline-block;
-    border: 3px dotted red; /* Borde discontínuo */
-    padding: 10px;
-    border-radius: 10px;
-
-    color: blue; /* Color del texto */
-
-    transition: none 0.5s ease;
+h2{
+    font-size: 24px;
+    font-weight: bold;
 }
