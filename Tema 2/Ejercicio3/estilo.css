@@ -1,50 +1,71 @@
 body{
-font-family: Verdana, Tahoma, sans-serif;
-font-size: 12px;
-color: black;
-margin: 20px;
-background-color: #dff5fd;
-}
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 12px;
+    color: black;
+    margin: 20px;
+    background-color: #dff5fd;
+    }
+    
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 36px;
+        color: darkblue;
+        text-align: center;
+        background-color: white;
+        border-top: 3px solid blue;
+        border-bottom: 3px solid blue;
+        margin: 20px, auto;
+    }
+    
+    h2{
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    .TimesRojo{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 14px;
+        font-weight: bold;
+        color: red;
+    }
+    
+    .TimesVerde{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 14px;
+        font-weight: bold;
+        color: green;
+    }
+    
+    .datos {
+        border: 2px solid darkred;
+        border-radius: 25px;
+        box-shadow: 2px 2px 5px black;
 
-h1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 36px;
-    color: darkblue;
-    text-align: center;
-    background-color: white;
-    border-top: 3px solid blue;
-    border-bottom: 3px solid blue;
-    margin: 20px, auto;
-}
+        background-color: rgba(255, 0, 0, 0.425);
+    
+        color: #74030A;;
+        font-size: 14px;
+        font-family: Arial, Times, sans-serif;
 
-h2{
-    font-size: 16px;
-    font-weight: bold;
-}
+        padding: 15px;
+        margin: 20px auto 20px auto;
 
-.TimesRojo{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 14px;
-    font-weight: bold;
-    color: red;
-}
+        width: 50%;
+    }
 
-.TimesVerde{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 14px;
-    font-weight: bold;
-    color: green;
-}
+    .formacion{
+        border: 3px dotted darkblue;
+        border-radius: 25px;
+        box-shadow: 2px 2px 5px black;
 
-.datos {
-    border: 3px solid red;
-    border-radius: 20px;
+        background-color: rgba(0, 123, 255, 0.425);
+    
+        color: darkblue;
+        font-size: 14px;
+        font-family: Arial, Times, sans-serif;
 
-    color: #74030A;;
-    font-size: 14px;
+        padding: 15px;
+        margin: 20px auto 20px auto;
 
-    margin-top: 20px, auto, auto;
-    margin-bottom: 20px, auto, auto;
-
-}
-
+        width: 50%;
+    }
