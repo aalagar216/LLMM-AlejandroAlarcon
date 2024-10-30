@@ -12,7 +12,7 @@ h1{
     border-top: 3px solid darkblue;
     border-bottom: 3px solid darkblue;
 
-    width: 75%;
+    width: 85%;
     margin: 20px auto 20px auto;
 }
 
@@ -23,6 +23,8 @@ nav{
     background-color: rgba(255, 0, 0, 0.356);
     box-shadow: 2px 2px 5px black;
     list-style-image: url(/Tema2/Ejercicio4/assets/documentos/carpeta.gif);
+    
+    margin: 50px;
 }
 
 li{
