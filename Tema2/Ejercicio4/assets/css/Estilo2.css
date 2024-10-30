@@ -35,9 +35,9 @@ nav li{
 }
 
 li:hover{
-    color: rgb(255, 255, 255);
     background-color: red;
     transition: 0.5s all;
+    padding: 15px;
 }
 
 a:link{
@@ -47,4 +47,9 @@ a:link{
 
 a:visited{
     color: rgb(0, 0, 0);
+}
+
+a:hover{
+    color: white;
+    transition: 0.5s all;
 }
