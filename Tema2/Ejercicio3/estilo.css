@@ -1,4 +1,4 @@
-body{
+    body{
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 12px;
     color: black;
@@ -68,4 +68,7 @@ body{
         margin: 20px auto 20px auto;
 
         width: 50%;
+
     }
+
+

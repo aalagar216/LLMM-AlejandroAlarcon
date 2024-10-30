@@ -1,0 +1,44 @@
+body{
+    background-color: rgba(159, 159, 159, 0.345);
+}
+
+h1{
+    color: darkblue;
+    background-color: white;
+
+    text-align: center;
+    font-size: 35px;
+
+    border-top: 3px solid darkblue;
+    border-bottom: 3px solid darkblue;
+
+    width: 75%;
+    margin: 20px auto 20px auto;
+}
+
+nav{
+    border: 3px solid darkred;
+    border-radius: 20px;
+    width: 15%;
+    background-color: rgba(255, 0, 0, 0.356);
+    box-shadow: 2px 2px 5px black;
+    list-style-image: url(/Tema2/Ejercicio4/assets/documentos/carpeta.gif);
+}
+
+li{
+    padding: 15px; 
+}
+
+a:link{
+    color: rgb(50, 50, 248);
+    text-decoration: none;
+}
+
+a:visited{
+    color: aquamarine;
+}
+
+a:hover{
+    color: darkblue;
+    transition: 0.5s all;
+}
