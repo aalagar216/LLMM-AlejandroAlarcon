@@ -1,0 +1,60 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    margin: auto;
+    background-color: #E9ECFC;
+    width: 800px;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+    text-align: center;
+    color: red;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: darkblue;
+    text-align: right;
+    border-bottom: 1px solid darkblue;
+}
+
+p{
+    padding: 15px;
+}
+
+.img1{
+    float: right;
+}
+
+.img2{
+    float: left;
+    padding-right: 10px;
+}
+
+ol{
+    font-size: 14px;
+    color: blue;
+    background-color: rgba(255, 255, 0, 0.358);
+    border: 2px dotted black;
+    text-align: left;
+    width: 40%;
+    margin: 20px 50px 20px;
+    padding: 20px 50px 20px 50px;
+}
+
+.precio{
+    background-color: white;
+    text-align: center;
+    font-size: 24px;
+}
+
+.euros{
+    color: darkred;
+}
+
+.imgfinal{
+    text-align: center;
+}
