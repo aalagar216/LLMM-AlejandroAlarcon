@@ -1,0 +1,9 @@
+table.horario caption{
+    text-align: center;
+    font-size: 36px;
+    color: blue;
+}
+
+table.horario tr.encabezado{
+    background-color: rgba(133, 133, 255, 0.6);
+}

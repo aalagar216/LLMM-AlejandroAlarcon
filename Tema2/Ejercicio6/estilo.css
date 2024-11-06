@@ -1,0 +1,36 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+table.horario caption{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    color: green;
+    text-align: center;
+}
+
+table.horario{
+    margin: 20px auto 20px auto;
+    text-align: center;
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+table.horario td, th{
+    padding: 15px;
+}
+
+table.horario tr.encabezado th{
+    background-color: rgba(255, 255, 0, 0.519);
+    color: rgba(98, 98, 2, 0.551);
+    border-bottom: 3px solid black;
+}
+
+table.horario tr.azulClaro td{
+    background-color: rgba(182, 182, 237, 0.542);
+}
+
+table.horario tr.azulOscuro td{
+    background-color: rgba(100, 100, 245, 0.493);
+}
