@@ -1,0 +1,39 @@
+body{
+    background-color: darkblue;
+    color: white;
+}
+div{
+    padding: 7px;
+}
+
+.comentario{
+    float: left;
+}
+
+#comentarios{
+    margin: 0px 30px;
+    width: 350px;
+    height: 150px;
+    max-width: 350px;
+    max-height: 150px;
+}
+
+#tarjeta{
+    margin: 0px 64px;
+}
+
+#tamaños{
+  margin: 0 57px;
+}
+
+#ingrediente{
+    margin: 0 30px;
+}
+
+#nombre{
+    margin: 0 50px;
+}
+
+#direccion{
+    margin: 0 40px;
+}

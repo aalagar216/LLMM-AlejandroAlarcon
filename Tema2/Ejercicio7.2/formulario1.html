@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="descripción" content="esto es una página de prueba"/>
+    <meta name="autor" content="Manolito Pies de Plata"/>
+    <meta name="keywords" content="etiquetas, pagina"/>
+    <title>Formulariao simple</title>
+    <link rel="stylesheet" href="./estilo.css">
+</head>
+<body>
+    
+    <fieldset>
+        <legend>Pedido de pizza</legend>
+
+            <form action="/enviar" method="post">
+                <div>
+                    <label for="nombre"> Nombre</label>
+                    <input type="text" name="nombre" id="nombre"> </br>
+                </div>
+
+                <div>
+                    <label for="direccion">Dirección</label>
+                    <input type="text" name="direccion" id="direccion"> </br>
+                </div>
+
+                <div>
+                    <label for="ingredientes">Ingredientes</label>
+                    <input type="radio" name="queso" id="ingrediente">queso</input>
+                    <input type="radio" name="cebolla" id="ingrediente">cebolla</input>
+                    <input type="radio" name="pimiento" id="ingrediente">pimiento</input>
+                    
+                </div>
+
+                <div>
+                    <label for="tamaño">Tamaño</label>
+                    <input type="checkbox" name="pequeña" id="tamaños">Pequeña</input>
+                    <input type="checkbox" name="mediana" id="tamaños">Mediana</input>
+                    <input type="checkbox" name="grande" id="tamaños">Grande</input> </br>
+                </div>
+
+                <div>
+                    <label for="tarjeta">Tarjeta</label>
+                    <select name="tarjeta" id="tarjeta">
+                        <option value="visa">visa</option>
+                        <option value="mastercard">mastercard</option>
+                        <option value="bizum">bizum</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="comentarios" class="comentario">Comentarios</label>
+                    <textarea name="comentarios" id="comentarios"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </form>
+
+    </fieldset>
+</body>
+</html>

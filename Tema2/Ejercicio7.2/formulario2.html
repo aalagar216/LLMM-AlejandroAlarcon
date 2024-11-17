@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="descripción" content="esto es una página de prueba"/>
+    <meta name="autor" content="Manolito Pies de Plata"/>
+    <meta name="keywords" content="etiquetas, pagina"/>
+    <title>Formulariao complejo</title>
+    <link rel="stylesheet" href="./estilo2.css">
+</head>
+<body>
+
+            <form action="/enviar" method="post">
+                <h1>-Pedido Pizza-</h1>
+
+                <div>
+                    <label for="nombre"> Nombre</label>
+                    <input type="text" name="nombre" id="nombre"> </br>
+                </div>
+
+                <div>
+                    <label for="direccion">Dirección</label>
+                    <input type="text" name="direccion" id="direccion"> </br>
+                </div>
+
+                <div>
+                    <label for="edad">Edad</label>
+                    <input type="number" name="edad" id="edad">
+                </div>
+
+                <div>
+                    <label for="ingredientes">Ingredientes</label>
+                    <input type="radio" name="queso" id="ingrediente">queso</input>
+                    <input type="radio" name="cebolla" id="ingrediente">cebolla</input>
+                    <input type="radio" name="pimiento" id="ingrediente">pimiento</input>
+                    
+                </div>
+
+                <div>
+                    <label for="tamaños">Tamaño</label>
+                    <input type="checkbox" name="pequeña" id="tamaño">Pequeña</input>
+                    <input type="checkbox" name="mediana" id="tamaño">Mediana</input>
+                    <input type="checkbox" name="grande" id="tamaño">Grande</input> </br>
+                </div>
+
+                <div>
+                    <label for="tarjeta">Tarjeta</label>
+                    <select name="tarjeta" id="tarjetas">
+                        <option value="visa">visa</option>
+                        <option value="mastercard">mastercard</option>
+                        <option value="bizum">bizum</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="comentarios" class="comentario">Comentarios</label>
+                    <textarea name="comentarios" id="comentarios"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </form>
+
+</body>
+</html>

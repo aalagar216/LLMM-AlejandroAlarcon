@@ -1,0 +1,60 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    background-color: rgba(225, 225, 225, 0.649);
+    margin: 35px;
+}
+
+h1{
+    background-color: orange;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+
+form{
+    background-color: #ffcc99;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+label{
+    color: white;
+    background-color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+}
+
+div{
+    padding: 15px;
+}
+
+#nombre{
+    margin: 0 60px;
+    width: 350px;
+}
+
+#direccion{
+    margin: 0 50px;
+    width: 350px;
+}
+
+#edad{
+    margin: 0 78px;
+    width: 350px;
+}
+
+#ingredientes{
+    float: left;
+}
+
+#tamaño{
+    float: center;
+}
+
+#tarjeta{
+    text-align: right;
+}
