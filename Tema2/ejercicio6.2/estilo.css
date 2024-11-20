@@ -1,6 +1,6 @@
-table.horario caption{
+table.horario {
     text-align: center;
-    font-size: 36px;
+    border-collapse: collapse;
     color: blue;
 }
 

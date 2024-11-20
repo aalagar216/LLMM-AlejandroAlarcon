@@ -47,14 +47,18 @@ div{
     width: 350px;
 }
 
-#ingredientes{
-    float: left;
+
+#comentario{
+    display: block;
 }
 
-#tamaño{
-    float: center;
-}
+#comentarios{
+    margin: 0px 215px;
+    width: 350px;
+    height: 150px;
+    max-width: 350px;
+    max-height: 150px;
+    min-width: 350px;
+    min-height: 150px;
 
-#tarjeta{
-    text-align: right;
 }
