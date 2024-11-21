@@ -45,11 +45,30 @@ div{
 #edad{
     margin: 0 78px;
     width: 350px;
+    
 }
 
+.labels{
+    display: block;
+}
+
+#ingrediente{
+    display: inline;
+    float: left;
+}
+
+.tamanyos{
+    display: block;
+    float: center;
+}
+
+.tarjeta{
+    float: right;
+}
 
 #comentario{
     display: block;
+    text-align: center;
 }
 
 #comentarios{

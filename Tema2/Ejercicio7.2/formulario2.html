@@ -29,40 +29,57 @@
                     <input type="number" name="edad" id="edad">
                 </div>
 
+                <div  class="contenedor">
+                    <div class="labels">
+                        <label for="ingredientes">Ingredientes</label>
+                        <label for="tamaños">Tamaño</label>
+                        <label for="tarjeta">Tarjeta</label>
+                    </div>
+
+                    <div class="opciones">
+                        <div id="ingrediente">
+                            <div>
+                                <input type="radio" name="queso">queso</input>
+                            </div>
+                            <div>
+                                <input type="radio" name="cebolla">cebolla</input>
+                            </div>
+                            <div>
+                                <input type="radio" name="pimiento">pimiento</input>
+                            </div>     
+                        </div>
+                        <div class="tamayos">
+                            <input type="checkbox" name="pequeña">Pequeña</input>
+                            <input type="checkbox" name="mediana">Mediana</input>
+                            <input type="checkbox" name="grande">Grande</input> </br>
+                        </div>
+                        <div class="tarjeta">
+                        
+                            <select name="tarjeta" id="tarjetas">
+                                <option value="visa">visa</option>
+                                <option value="mastercard">mastercard</option>
+                                <option value="bizum">bizum</option>
+                            </select>
+                        </div>
+                    </div>
+    
+                </div>
+
                 <div>
-                    <label for="ingredientes">Ingredientes</label>
-                    <input type="radio" name="queso" id="ingrediente">queso</input>
-                    <input type="radio" name="cebolla" id="ingrediente">cebolla</input>
-                    <input type="radio" name="pimiento" id="ingrediente">pimiento</input>
-                    
+                    <div>
+                        <label for="comentarios" class="comentario" id="comentario">Comentarios</label>
+                    </div>
+    
+                    <div>
+                        <textarea name="comentarios" id="comentarios"></textarea>
+                    </div>
                 </div>
 
-                <div class="tamaños">
-                    <label for="tamaños">Tamaño</label>
-                    <input type="checkbox" name="pequeña" id="tamaño">Pequeña</input>
-                    <input type="checkbox" name="mediana" id="tamaño">Mediana</input>
-                    <input type="checkbox" name="grande" id="tamaño">Grande</input> </br>
-                </div>
 
                 <div>
-                    <label for="tarjeta">Tarjeta</label>
-                    <select name="tarjeta" id="tarjetas">
-                        <option value="visa">visa</option>
-                        <option value="mastercard">mastercard</option>
-                        <option value="bizum">bizum</option>
-                    </select>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Borrar">
                 </div>
-
-                <div>
-                    <label for="comentarios" class="comentario" id="comentario">Comentarios</label>
-                </div>
-
-                <div>
-                    <textarea name="comentarios" id="comentarios"></textarea>
-                </div>
-
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Borrar">
             </form>
 
 </body>
