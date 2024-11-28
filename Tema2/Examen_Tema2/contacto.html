@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./assets_css/estilo_contacto.css">
+</head>
+<body>
+
+    <h1 class="cabecera">Contacta con nosotros</h1>
+
+    <nav>
+        <ul>
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="">Japón</a></li>
+            <li><a href="./destino1.html">Paris</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+</br></br>
+
+<h1 class="formulario">FORMULARIO</h1>
+
+    <form action="/enviar" method="post">
+
+        <div class="separar">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Introducir Email"> </br>
+        </div>
+
+        <div class="separar">
+            <label for="contraseña">Contraseña</label>
+            <input type="password" name="contraseña" id="contaseña" placeholder="Introducir contaseña"> </br>
+        </div>
+
+        <div class="separar">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre"> </br>
+        </div>
+
+        <div class="separar">
+            <label for="color">Color preferido</label>
+            <input type="color" name="color" id="color"> <br/>
+        </div>
+
+        <div class="separar">
+            <label for="web">Web</label>
+            <input type="text" name="web" id="web"> </br>
+        </div>
+
+        <div class="separar">
+            <label for="telefono">Telefono</label>
+            <input type="text" name="telefono" id="telefono"> </br>
+        </div>
+
+        <div class="separar">
+            <label for="fechaNacimiento">Fecha de nacimiento: </label>
+            <input type="date" name="fechaNacimiento" id="fechaNacimiento"> <br>
+        </div>
+
+        <div class="separar">
+            <label for="transporte">Transporte</label>
+            
+                <input type="checkbox" id="transportes"><label for="coche">Coche</label></input>
+                <input type="checkbox" id="transportes"><label for="barco">Barco</label></input>
+                <input type="checkbox" id="transportes" checked><label for="tren">Tren</label></input>
+                <input type="checkbox" id="transportes"><label for="avion">Avion</label> <br/>
+        
+        </div>
+
+    </br>
+
+    <fieldset  class="guía">
+        <div>
+            <label for="guia">Opción a Guía</label>
+            <input type="radio" checked><label for="si">Si</label>
+            <input type="radio"><label for="no">No</label>
+        </div>
+    </fieldset>
+
+    <fieldset class="pago">
+        <div>
+            <label for="pago">Forma de pago</label>
+            <select name="metodo" id="metodo">
+                <option value="visa">Visa</option>
+                <option value="mastercard" selected>MasterCard</option>
+                <option value="contado">Al Contado</option>
+            </select>
+        </div> 
+    </fieldset>
+
+        <div class="botones">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </div>
+
+
+    </form>
+
+</br></br>
+    
+</body>
+</html>

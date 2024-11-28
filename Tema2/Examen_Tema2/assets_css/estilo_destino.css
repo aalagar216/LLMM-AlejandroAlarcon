@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+}
+h1{
+    margin: auto;
+    text-align: center;
+    border-bottom: 2px solid white;
+    color: white;
+    background-color: black;
+}
+nav ul{
+    margin: auto;
+    list-style: none;
+    padding: 25px;
+    background-color: rgb(0, 0, 0);
+}
+
+nav li{
+    display: inline;
+    font-size: 16px;
+    padding: 1px;
+    margin: 0 10px;
+    float: left;
+}
+
+a:link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(255, 255, 255);
+}
+
+a:hover{
+    color: darkblue;
+    transition: 0.5s all;
+}
+
+h2{
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    max-width: 50%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+p{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+table{
+    color: rgb(0, 0, 0);
+
+}
+
+table.horario caption{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgba(74, 228, 94, 0.519);
+}
+table.horario{
+    margin: 20px auto 20px auto;
+    text-align: center;
+    border-collapse: 1px;
+    border: 3px dotted rgb(0, 0, 0);
+}
+table.horario td, th{
+    padding: 15px;
+}
+
+table.horario tr.encabezado th{
+    background-color: rgba(74, 228, 94, 0.519);
+    color: rgb(255, 255, 255);
+    border-bottom: 3px solid black;
+}
+
+table.horario tr.azulClaro td{
+    background-color: rgba(255, 255, 255, 0.542);
+}
+
+table.horario tr.azulOscuro td{
+    background-color: rgba(136, 136, 136, 0.493);
+}

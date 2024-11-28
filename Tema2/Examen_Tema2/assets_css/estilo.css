@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+}
+h1{
+    margin: auto;
+    text-align: center;
+    border-bottom: 2px solid white;
+    color: white;
+    background-color: black;
+}
+nav ul{
+    margin: auto;
+    list-style: none;
+    padding: 25px;
+    background-color: rgb(0, 0, 0);
+}
+
+nav li{
+    display: inline;
+    font-size: 16px;
+    padding: 1px;
+    margin: 0 10px;
+    float: left;
+}
+a:link{
+    color: black;
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(0, 0, 0);
+}
+
+ a:hover{
+    color: darkblue;
+    transition: 0.5s all;
+}
+
+nav a:link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+nav a:visited{
+    color: rgb(255, 255, 255);
+}
+
+nav a:hover{
+    color: darkblue;
+    transition: 0.5s all;
+}
+
+
+.booking{
+    color: rgb(0, 0, 0);
+}
+
+.imgcentrada{
+    margin: 20px auto 20px auto;
+    width: 200px;
+    height: 100px;
+
+}
+.parrafo{
+    text-align: center;
+}
+.parrafo span {
+    color: green;
+}
+
