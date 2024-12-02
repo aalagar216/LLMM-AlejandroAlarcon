@@ -1,0 +1,65 @@
+div{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 5px;
+    border: 1px solid red;
+    margin: auto;
+    padding: 15px;
+    color: white;
+}
+.caja1{
+    grid-column: 1 / 3 ;
+    border: 1px solid black;
+    text-align: center;
+    padding: 15px;
+}
+
+.caja{
+    border: 1px solid black;
+    text-align: center;
+    padding: 15px;
+}
+.caja3{
+    border: 1px solid black;
+    text-align: center;
+    padding: 15px;
+}
+.caja4{
+    border: 1px solid black;
+    text-align: center;
+    padding: 15px; 
+}
+.caja7{
+    border: 1px solid black;
+    grid-column: 1 / 3 ;
+    border: 1px solid black;
+    text-align: center;
+    padding: 15px;
+}
+.cajaRoja{
+    background-color: red;
+}
+
+.cajaVerde{
+    background-color: green;
+}
+
+.cajaNaranja{
+    background-color: orange;
+}
+
+.cajaAzul{
+    background-color: blue;
+}
+
+.cajaCian{
+    background-color: aqua;
+}
+
+.cajaPistacho{
+    background-color: greenyellow;
+}
+
+.cajaNegra{
+    background-color: black;
+}
