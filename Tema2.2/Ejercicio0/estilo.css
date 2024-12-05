@@ -19,15 +19,12 @@ div{
     text-align: center;
     padding: 15px;
 }
-.caja3{
-    border: 1px solid black;
-    text-align: center;
-    padding: 15px;
-}
+
 .caja4{
     border: 1px solid black;
     text-align: center;
     padding: 15px; 
+    grid-row: 2 / 4;
 }
 .caja7{
     border: 1px solid black;
