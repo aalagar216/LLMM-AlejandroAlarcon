@@ -31,10 +31,6 @@ footer {
     grid-column: 1/3;
     padding: 5px;}
   
-section { 	
-    background-color: #BBDEFB;
-    padding: 5px;}
-  
 nav{
 
       grid-column: 1/3;
@@ -44,7 +40,10 @@ nav{
 nav li{
     display: inline;
 }
-
+article{
+    background-color: #BBDEFB;
+    padding: 5px;
+}
 .a1{
     grid-row: 3/5;
     padding: 5px;
